@@ -1,4 +1,6 @@
 # Interface 2023年11月号「ChatGPTとプログラミング」中西担当部分サポートページ
+
+
 ## 概要
 このリポジトリには、Interface 2023年11月号の「ChatGPTとプログラミング」（以下、本誌）の中西が担当した部分のサポートページです。
 以下の内容が含まれます。
@@ -7,6 +9,18 @@
 * 第3部第6章の認識サーバー用のDocker関係ファイル([./docker](./docker))
 
 不備があれば、イシューぺージを活用ください。
+
+## 正誤表
+```
+イントロダクションのViTの全文のURL部分
+（誤）https://github.com/kurusugawa-computer/interface-2023-11-chatgpt/prompts/イントロダクション/ViT.md
+（正）https://github.com/kurusugawa-computer/interface-2023-11-chatgpt/blob/main/prompts/イントロダクション/ViT.md
+
+「プログラマ向け 活用テクニック13」のログ・ディレクトリのURL部分
+（誤）https://github.com/kurusugawacomputer/interface-2023-11-chatgpt/prompts/各論編
+（正）https://github.com/kurusugawa-computer/interface-2023-11-chatgpt/blob/main/prompts/各論編
+```
+
 
 ## 認識サーバー利用方法
 認識サーバーの動作にはdockerを用います。
